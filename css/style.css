@@ -1,2 +1,115 @@
 
 
+ /* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f4f8; /* Optional background color for body */
+}
+
+/* Container Styling */
+.container {
+    width: 80%;
+    background-color: #d5e1ef;
+    padding: 2rem;
+    border-radius: 0.5rem; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* QR Parent Box Styling */
+.qr-parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 2px 2px #dddedb;
+    padding: 1rem; 
+}
+
+/* QR Box Styling */
+.qr-box {
+    display: grid;
+    place-items: center;
+    width: 50%;
+    margin: 2rem;
+    padding: 0.8rem;
+    border: 1px solid #a9a7a7;
+    border-radius: 0.5rem;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 2px 2px #d2cfcf;
+}
+
+/* Image Styling */
+.qr-box img {
+    width: 100%;
+    border-radius: 0.25rem; 
+}
+
+/* Text Styling */
+.qr-box h2,
+.qr-box p {
+    margin: 10px;
+    font-family: sans-serif;
+    font-optical-sizing: auto;
+    text-align: center; 
+}
+
+.qr-box h2 {
+    font-weight: bold; 
+}
+
+.qr-box p {
+    color: #555; 
+}
+
+
+/* ======================= */
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .container {
+        width: 90%; 
+    }
+    
+    .qr-box {
+        width: 70%;
+        margin: 1.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 95%; 
+        padding: 1.5rem; 
+    }
+
+    .qr-parent {
+        flex-direction: column; 
+        padding: 0.5rem;
+    }
+
+    .qr-box {
+        width: 90%;
+        margin: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .qr-box {
+        width: 100%;
+        margin: 0.5rem;
+    }
+
+    .qr-box h2,
+    .qr-box p {
+        margin: 5px; 
+    }
+}
