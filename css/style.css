@@ -20,7 +20,7 @@ body {
 
 
 /* QR Box Styling */
-.qr-box {
+.qr-card {
     display: grid;
     place-items: center;
     max-width: 30rem;
