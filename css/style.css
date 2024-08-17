@@ -23,20 +23,21 @@ body {
 .qr-card {
     display: grid;
     place-items: center;
-    max-width: 30rem;
-    margin: 2rem;
-    padding: 0.8rem;
     border: 1px solid #a9a7a7;
     border-radius: 16px;
     background-color: #ffffff;
     box-shadow: 2px 2px 2px 2px #d2cfcf;
+
+    /* new property*/
+    max-width: 20rem;
+    margin: 1rem;
+    padding: 1rem;
 }
 
 /* Image Styling */
 .img-of-qr-code {
     display: block;
-    max-width: 100%;
-    border-radius: 0.25rem; 
+    max-width: 90%;
 }
 
 /* Text Styling */
@@ -47,9 +48,12 @@ body {
 }
 
 .card-header{
-    font-weight: bold; 
+    font-size: 1.5rem;
+    font-weight: 700;
 }
 
 .card-desc{
     color: #555; 
+    font-size: 1rem; 
+    color: #888;
 }
