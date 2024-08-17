@@ -2,9 +2,8 @@
 
 
 ## Preview.
-![Preview of my QR Code challenge project mobile device](./preview-project/pre-view-image-1.png)
-![Preview of my QR Code challenge project Tablet](./preview-project/preview-image-2.png)
-![Preview of my QR Code challenge project laptop](./preview-project/preview-image-3.png)
+![Preview of my QR Code challenge project mobile device](./preview-project/preview-image.png)
+
 
 
  👋 Welcome! you to my QR Code solution page 👋
